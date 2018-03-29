@@ -1,2 +1,2 @@
-# cxqi
+# EmailService
 sample email send
