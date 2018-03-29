@@ -1,0 +1,18 @@
+###############################################################################
+#                           Common                                            #
+###############################################################################
+[common]
+   version = "0.0.1" 
+   is_debug = false 
+   log_level = "info"
+   log_path = "./out.log" 
+
+[ech]
+   addr = "0.0.0.0:8088"
+   fromaddr = "xxx@xxgmail.com"
+   toaddr = "xxx@xxgamil.com"
+   serviceaddr = "smtp.gmail.com"
+   port = 25
+   sub = "Subject"
+   bodytitle = "text/plain"
+   pwd = "emailpwd"
