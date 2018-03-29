@@ -14,3 +14,4 @@ package main(){
 	push.DialAndSend(m)
 }
 
+简单的email的接入，希望能帮到你们
