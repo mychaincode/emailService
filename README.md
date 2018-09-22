@@ -1,5 +1,6 @@
 # Sample EmailService
 
+```python
 package mian
 import(
    "gopkg.in/gomail.v2"
@@ -13,5 +14,6 @@ package main(){
 	push:=gomail.NewDialer("smtp.gmail.com",25,"xxx@gmail.com","emailpwd")
 	push.DialAndSend(m)
 }
+```
 
 简单的email的接入，希望能帮到你们
